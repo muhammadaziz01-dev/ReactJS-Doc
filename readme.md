@@ -9,9 +9,47 @@
 
 <hr>
 
+### React Components
+
+![Alt text](./imgs/components.jpg)
+
+- **ReactJS-da** *komponentlar, interfeysning tuzilishi uchun qo'llaniladigan modullar hisoblanadi. Har bir komponent, o'zining xususiyati va vazifalari bo'lgan bir elementni aks ettiradi. Misol uchun, sahifa sarlavhasi, navigatsiya paneli, ma'lumotlar ro'yxati yoki odam profili komponentlar bo'lishi mumkin.* 
+
+React komponentlar JSX (JavaScript XML) sintaksisida yaratiladi. JSX sintaksi React elementlari yaratish uchun mo'ljallangan va u HTML-ga o'xshashdir, ammo JavaScriptga ham o'xshashdir. JSX orqali, komponentlarni bir-biriga qo'shish, saqlash, va ularni boshqarish mumkin bo'ladi.
+
+Quyidagi misol, oddiy bir "HelloWorld" komponentni yaratishni ko'rsatadi:
+```
+import React from 'react';
+
+// HelloWorld komponenti
+function HelloWorld() {
+  return <h1>Hello, World!</h1>;
+}
+
+// Komponentni sahifaga chiqarish
+ReactDOM.render(
+  <HelloWorld />,
+  document.getElementById('root')
+);
+```
+
+- **Komponentlar quyidagi asosiy xususiyatlarga ega:**
+
+1. **Props:** Boshqa komponentlar tomonidan ma'lumot olish uchun uzatiladigan argumentlar.
+2. **State:** Komponentning vaziyati, o'zgaruvchanlari.
+3. **Lifecycle Methods:** Komponent hayot tsiklining turli bosqichlari (yaratish, yangilanish, o'chirish).
+4. **Event Handling:** Foydalanuvchi hodisalariga javob berish uchun funksiyalar.
+5. **Nested Components:** Komponentlar ichida boshqa komponentlarni o'z ichiga oladi.
+6. **Context:** Ma'lumotlarni komponentlar orasida almashish.
+
+- **Komponentlar**, *React dasturlashining qulayliklaridan biridir, chunki ular kodni qisqa va tuzilgan bo'lishini ta'minlaydi. Masofaviy komponentlar bo'yicha bo'limlar, kutubxonalar va jamoalar kengaymoqda, shuning uchun React komponentlarini tushunish va ular bilan ishlash, bir dastur yaratishda keng qo'llaniladigan bir qo'llanma hisoblanadi.*
+
+
+<hr>
+
 ### React Props 
 
-![Alt text](./imgs/React-Props.webp)
+![Alt text](./imgs/React-Props.webp)  
 
 - **ReactJS-da** *"props" (properties) komponentlarga ma'lumot uzatish uchun ishlatiladi. Props lar, bir komponentdan boshqasiga ma'lumot uzatish orqali, komponentlarning birligini o'zaro aloqador va birlashgan qilishga yordam beradi.*
 
